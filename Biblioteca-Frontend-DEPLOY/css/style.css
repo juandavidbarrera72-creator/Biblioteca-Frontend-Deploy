@@ -1,0 +1,40 @@
+/* ==========================
+   ESTILOS GENERALES
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Encabezado */
+
+header{
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+/* Tarjetas */
+
+.card{
+    transition:.3s;
+    border:none;
+    border-radius:12px;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-body i{
+    margin-bottom:15px;
+}
+
+.btn{
+    width:100%;
+}
