@@ -1,5 +1,4 @@
-const API_URL = "https://api-biblioteca-1ibw8.onrender.com";
-
+const API_URL = "https://api-biblioteca-1-ibw8.onrender.com";
 /**
  * Wrapper central de fetch: agrega headers, valida el status HTTP y
  * lanza un error legible en vez de dejar que falle en silencio.
