@@ -119,7 +119,7 @@ async function guardarLibro() {
         isbn: "",
         categoria: document.getElementById("categoria").value,
         editorial: document.getElementById("editorial").value,
-        anio_publicacion: document.getElementById("anio").value || null,
+        anio_publicacion: document.getElementById("anio").value ? parseInt(document.getElementById("anio").value) : null,
         disponible: true,
         imagen: "",
         autor_id: null
